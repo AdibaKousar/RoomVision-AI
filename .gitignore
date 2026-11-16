@@ -1,0 +1,54 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# API keys and secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+# Generated and temporary files
+generated_designs/
+*.pt
+
+# Testing files
+test_click.py
+test_room.jpg
+improved_floor_plan.html
+space_optimization_test.html
