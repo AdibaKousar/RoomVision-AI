@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 *.pyo
+*$py.class
 
 # Virtual environments
 venv/
@@ -15,40 +16,67 @@ ENV/
 .env
 .env.*
 !.env.example
+.pypirc
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# IDE settings
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Testing and coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Build files
-build/
-dist/
-*.egg-info/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.bak
 # Generated and temporary files
 generated_designs/
 *.pt
+*.tmp
+*.bak
 
 # Testing files
 test_click.py
 test_room.jpg
 improved_floor_plan.html
 space_optimization_test.html
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# Logs
+*.log
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+develop-eggs/
+.Python
+*.manifest
+
+# Django / Flask
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+
+# Other Python tools
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.pybuilder/
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+
+# OS files
+.DS_Store
+Thumbs.db
